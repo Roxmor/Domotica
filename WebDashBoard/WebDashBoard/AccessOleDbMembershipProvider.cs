@@ -506,10 +506,6 @@ namespace CustomMembership
                                             System.DateTime.MinValue, // no last activity date stored
                                             System.DateTime.MinValue, // no last password change date stored
                                             System.DateTime.MinValue); // no last locked out date stored
-                    HttpCookie UseridCookie = new HttpCookie("UseridCookie");
-                    UseridCookie.Values["Userid"] = u.ToString();
-                    UseridCookie.Expires = DateTime.Now.AddDays(10.0);
-                    Response.Cookies.Add(UseridCookie);
                 }
                 reader.Close();
             }
@@ -522,7 +518,6 @@ namespace CustomMembership
                 if (reader != null) { reader.Close(); }
                 conn.Close();
             }
-
             return u;
         }
 

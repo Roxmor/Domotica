@@ -16,10 +16,5 @@
     <asp:Button ID="btnAccount" runat="server" Text="Account" OnClick="btnAccount_Click" />
 
 <br />
-    <asp:LoginName ID="lnnNeeded" runat="server" EnableViewState="True" Visible="True" />
-    <br />
-    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-    <br />
-    <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
-</asp:Content>
+    </asp:Content>
 
