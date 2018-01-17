@@ -16,7 +16,7 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
             <br />
-            <asp:Button ID="btnReturn" runat="server" OnClick="btnReturn_Click" Text="Terug naar de mainpage" />
+            <asp:Button ID="btnReturn" runat="server" OnClick="btnReturn_Click" Text="Terug naar de mainpageabsollutonzinnig" />
         </div>
     </form>
 </body>
