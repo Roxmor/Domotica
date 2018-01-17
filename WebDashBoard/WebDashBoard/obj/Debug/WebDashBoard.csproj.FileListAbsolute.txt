@@ -1,0 +1,7 @@
+c:\users\mitchell\source\repos\WebDashBoard\WebDashBoard\bin\WebDashBoard.dll.config
+c:\users\mitchell\source\repos\WebDashBoard\WebDashBoard\bin\WebDashBoard.dll
+c:\users\mitchell\source\repos\WebDashBoard\WebDashBoard\bin\WebDashBoard.pdb
+c:\users\mitchell\source\repos\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.csprojResolveAssemblyReference.cache
+c:\users\mitchell\source\repos\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.csproj.CoreCompileInputs.cache
+c:\users\mitchell\source\repos\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.dll
+c:\users\mitchell\source\repos\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.pdb
