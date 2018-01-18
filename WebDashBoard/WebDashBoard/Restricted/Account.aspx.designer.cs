@@ -13,57 +13,12 @@ namespace WebDashBoard {
     public partial class Account {
         
         /// <summary>
-        /// mvwAccount control.
+        /// lnnName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.MultiView mvwAccount;
-        
-        /// <summary>
-        /// viwAccount control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.View viwAccount;
-        
-        /// <summary>
-        /// btnPassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPassword;
-        
-        /// <summary>
-        /// viwPassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.View viwPassword;
-        
-        /// <summary>
-        /// ChangePassword1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ChangePassword ChangePassword1;
-        
-        /// <summary>
-        /// btnReturn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnReturn;
+        protected global::System.Web.UI.WebControls.LoginName lnnName;
     }
 }

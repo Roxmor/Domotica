@@ -187,8 +187,8 @@ namespace CustomMembership
             OleDbCommand updateCmd = new OleDbCommand("UPDATE Gebruiker SET [Wachtwoord] = ? WHERE Gebruikersnaam = ?", conn);
 
             string pass = HashPassword(newPwd);
-            updateCmd.Parameters.Add("@password", OleDbType.VarChar, 128).Value = pass;
-            updateCmd.Parameters.Add("@username", OleDbType.VarChar, 40).Value = username;
+            updateCmd.Parameters.Add("@Wachtwoord", OleDbType.VarChar, 128).Value = pass;
+            updateCmd.Parameters.Add("@Gebruikersnaam", OleDbType.VarChar, 40).Value = username;
             int rowsAffected = 0;
 
             try

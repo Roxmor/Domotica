@@ -11,20 +11,7 @@ namespace WebDashBoard
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                mvwAccount.ActiveViewIndex = 0;
-            }
-        }
 
-        protected void btnPassword_Click(object sender, EventArgs e)
-        {
-            mvwAccount.ActiveViewIndex = 1;
-        }
-
-        protected void btnReturn_Click(object sender, EventArgs e)
-        {
-            mvwAccount.ActiveViewIndex = 0;
         }
     }
 }

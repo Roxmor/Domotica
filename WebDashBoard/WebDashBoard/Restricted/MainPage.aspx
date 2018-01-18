@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="Main" Language="C#" MasterPageFile="~/MasterPage1.Master" AutoEventWireup="true" CodeBehind="MainPage.aspx.cs" Inherits="WebDashBoard.MainPage" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -14,7 +15,6 @@
     <asp:Button ID="btnSteam" runat="server" Text="Steam" OnClick="btnSteam_Click" />
     <br />
     <asp:Button ID="btnAccount" runat="server" Text="Account" OnClick="btnAccount_Click" />
-
-<br />
-    </asp:Content>
+    <br />
+</asp:Content>
 
