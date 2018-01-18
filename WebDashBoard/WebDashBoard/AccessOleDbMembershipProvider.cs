@@ -184,7 +184,7 @@ namespace CustomMembership
             }
 
             OleDbConnection conn = new OleDbConnection(connectionString);
-            OleDbCommand updateCmd = new OleDbCommand("UPDATE users SET [password] = ? WHERE username = ?", conn);
+            OleDbCommand updateCmd = new OleDbCommand("UPDATE Gebruiker SET [Wachtwoord] = ? WHERE Gebruikersnaam = ?", conn);
 
             string pass = HashPassword(newPwd);
             updateCmd.Parameters.Add("@password", OleDbType.VarChar, 128).Value = pass;
