@@ -65,6 +65,7 @@
     <Content Include="Restricted\Account.aspx" />
     <Content Include="App_Data\Dashboard.accdb" />
     <Content Include="Restricted\DaHaus.aspx" />
+    <Content Include="Restricted\DasHaus.aspx" />
     <Content Include="Restricted\Games.aspx" />
     <Content Include="Restricted\MainPage.aspx" />
     <Content Include="Restricted\Opties.aspx" />
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="Restricted\DaHaus.aspx.designer.cs">
       <DependentUpon>DaHaus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted\DasHaus.aspx.cs">
+      <DependentUpon>DasHaus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted\DasHaus.aspx.designer.cs">
+      <DependentUpon>DasHaus.aspx</DependentUpon>
     </Compile>
     <Compile Include="Restricted\Games.aspx.cs">
       <DependentUpon>Games.aspx</DependentUpon>

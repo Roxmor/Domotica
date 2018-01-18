@@ -13,29 +13,7 @@ namespace WebDashBoard
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            OleDbConnection conn = new OleDbConnection();
-            conn.ConnectionString = ConfigurationManager.ConnectionStrings["DashboardDB"].ToString();
 
-            if (!IsPostBack)
-            {
-                try
-                {
-                    conn.Open();
-                }
-                catch (Exception exc)
-                {
-
-                }
-                finally
-                {
-                    conn.Close();
-                }
-            }
-        }
-
-        protected void gvwSites_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            fvwSites.PageIndex = gvwSites.SelectedIndex;
         }
 
     }
