@@ -17,6 +17,7 @@
             </asp:ContentPlaceHolder>
             <br />
             <asp:Button ID="btnReturn" runat="server" OnClick="btnReturn_Click" Text="Terug naar de mainpage" />
+            <asp:Label ID="lblUsername" runat="server" Text="Label" Visible="False"></asp:Label>
         </div>
     </form>
 </body>

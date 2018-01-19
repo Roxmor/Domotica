@@ -1,8 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage1.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="WebDashBoard.Register" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="WebDashBoard.Register" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+                <p>
     <asp:CreateUserWizard ID="cuwCreateUser" runat="server" MembershipProvider="KortereNaam" RequireEmail="False" OnCreatedUser="CreateUserWizard1_CreatedUser" ContinueDestinationPageUrl="~/Login.aspx" FinishDestinationPageUrl="~/Login.aspx" LoginCreatedUser="False">
         <WizardSteps>
             <asp:CreateUserWizardStep runat="server" >
@@ -71,4 +78,7 @@
         </WizardSteps>
     </asp:CreateUserWizard>
 </p>
-</asp:Content>
+        </div>
+    </form>
+</body>
+</html>

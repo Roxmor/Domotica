@@ -62,6 +62,7 @@
     <Content Include="Login.aspx">
       <BrowseToURL>~/Login.aspx</BrowseToURL>
     </Content>
+    <Content Include="Register.aspx" />
     <Content Include="Restricted\Account.aspx" />
     <Content Include="App_Data\Dashboard.accdb" />
     <Content Include="Restricted\DaHaus.aspx" />
@@ -69,7 +70,6 @@
     <Content Include="Restricted\Games.aspx" />
     <Content Include="Restricted\MainPage.aspx" />
     <Content Include="Restricted\Opties.aspx" />
-    <Content Include="Register.aspx" />
     <Content Include="Restricted\Sites.aspx" />
     <Content Include="Restricted\Steam.aspx" />
     <Content Include="Web.config">
@@ -91,6 +91,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Restricted\Account.aspx.cs">
       <DependentUpon>Account.aspx</DependentUpon>
@@ -127,11 +134,11 @@
     <Compile Include="Restricted\MainPage.aspx.designer.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MasterPage1.Master.cs">
+    <Compile Include="Restricted\MasterPage1.Master.cs">
       <DependentUpon>MasterPage1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MasterPage1.Master.designer.cs">
+    <Compile Include="Restricted\MasterPage1.Master.designer.cs">
       <DependentUpon>MasterPage1.Master</DependentUpon>
     </Compile>
     <Compile Include="Restricted\Opties.aspx.cs">
@@ -142,13 +149,6 @@
       <DependentUpon>Opties.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Restricted\Sites.aspx.cs">
       <DependentUpon>Sites.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -165,7 +165,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MasterPage1.Master" />
+    <Content Include="Restricted\MasterPage1.Master" />
     <Content Include="Restricted\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
