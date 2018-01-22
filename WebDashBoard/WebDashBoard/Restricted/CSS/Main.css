@@ -20,3 +20,6 @@
     height:50%;
     witdh: 50px;
 }
+.griditem:hover {
+    background-color: rgb(255, 0, 0);
+}
