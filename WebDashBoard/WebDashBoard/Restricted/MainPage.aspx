@@ -4,17 +4,19 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <asp:Button ID="btnDaHaus" runat="server" Text="Da Haus" OnClick="btnDaHaus_Click" />
-    <br />
-    <asp:Button ID="btnGames" runat="server" Text="Games" OnClick="btnGames_Click" />
-    <br />
-    <asp:Button ID="btnSites" runat="server" Text="Sites" OnClick="btnSites_Click" />
-    <br />
-    <asp:Button ID="btnOpties" runat="server" Text="Opties" OnClick="btnOpties_Click" />
-    <br />
-    <asp:Button ID="btnSteam" runat="server" Text="Steam" OnClick="btnSteam_Click" />
-    <br />
-    <asp:Button ID="btnAccount" runat="server" Text="Account" OnClick="btnAccount_Click" />
-    <br />
+    <div class="gridview">
+        <asp:Button ID="btnDaHaus" class="griditem" runat="server" Text="Da Haus" OnClick="btnDaHaus_Click" />
+        
+        <asp:Button ID="btnGames" class="griditem" runat="server" Text="Games" OnClick="btnGames_Click" />
+        
+        <asp:Button ID="btnSites" class="griditem" runat="server" Text="Sites" OnClick="btnSites_Click" />
+        
+        <asp:Button ID="btnOpties" class="griditem" runat="server" Text="Opties" OnClick="btnOpties_Click" />
+        
+        <asp:Button ID="btnSteam" class="griditem" runat="server" Text="Steam" OnClick="btnSteam_Click" />
+        
+        <asp:Button ID="btnAccount" class="griditem" runat="server" Text="Account" OnClick="btnAccount_Click" />
+        
+    </div>
 </asp:Content>
 
