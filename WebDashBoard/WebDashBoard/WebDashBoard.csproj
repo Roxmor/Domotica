@@ -62,6 +62,7 @@
     <Content Include="Login.aspx">
       <BrowseToURL>~/Login.aspx</BrowseToURL>
     </Content>
+    <Content Include="Restricted\CSS\Main.css" />
     <Content Include="Register.aspx" />
     <Content Include="Restricted\Account.aspx" />
     <Content Include="App_Data\Dashboard.accdb" />

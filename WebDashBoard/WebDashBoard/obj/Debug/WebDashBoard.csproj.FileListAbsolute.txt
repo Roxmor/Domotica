@@ -12,3 +12,9 @@ C:\Users\Mitchell\Documents\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDash
 C:\Users\Mitchell\Documents\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.csproj.CoreCompileInputs.cache
 C:\Users\Mitchell\Documents\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.dll
 C:\Users\Mitchell\Documents\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.pdb
+C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\bin\WebDashBoard.dll.config
+C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\bin\WebDashBoard.dll
+C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\bin\WebDashBoard.pdb
+C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.csproj.CoreCompileInputs.cache
+C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.dll
+C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.pdb
