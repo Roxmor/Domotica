@@ -2,6 +2,7 @@
     --maincolor: #fff;
     --subcolor: #238cdd;
     --hovercolor: #165a8e;
+    --bordervalue: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 
@@ -12,15 +13,15 @@ body {
 
 .nav {
     background-color: var(--subcolor);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: var(--bordervalue);
     padding: 19px;
     font-size: 20px;
     text-align: center;
 }
 
 .navitem {
-    border-left: 1px solid rgba(0, 0, 0, 0.8);
-    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: var(--bordervalue);
+    border-right: var(--bordervalue);
     padding: 20px;
 }
 .navitem:hover {
@@ -36,13 +37,13 @@ body {
 
 .griditem {
     background-color: var(--subcolor);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: var(--bordervalue);
     padding: 20px;
     font-size: 30px;
     text-align: center;
     margin: 50px;
     height: 50%;
-    witdh: 50px;
+    
 }
     .griditem:hover {
         background-color: var(--hovercolor);
@@ -50,10 +51,10 @@ body {
 
 .returnhome {
     height: 50px;
-    width: 95%;
-    margin-left: 2.5%;
+    width: 92%;
+    margin-left: 4%;
     background-color: var(--subcolor);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: var(--bordervalue);
 }
     .returnhome:hover {
         background-color: var(--hovercolor);
