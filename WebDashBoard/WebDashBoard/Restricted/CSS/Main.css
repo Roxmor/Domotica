@@ -1,12 +1,19 @@
-﻿body {
-    background-color: #2196F3;
+﻿:root {
+    --maincolor: #fff;
+    --subcolor: #238cdd;
+    --hovercolor: #165a8e;
+}
+
+
+body {
+    background-color: var(--maincolor);
     margin: 0px;
 }
 
 .nav {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--subcolor);
     border-bottom: 1px solid rgba(0, 0, 0, 0.8);
-    padding:19px;
+    padding: 19px;
     font-size: 20px;
     text-align: center;
 }
@@ -17,39 +24,37 @@
     padding: 20px;
 }
 .navitem:hover {
-    background-color: rgb(255, 0, 0);
+    background-color: var(--hovercolor);
 }
 
 .gridview {
-    
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    background-color: var(--maincolor);
     padding: 10px;
-    
 }
 
 .griditem {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--subcolor);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
     margin: 50px;
-    height:50%;
+    height: 50%;
     witdh: 50px;
 }
-.griditem:hover {
-    background-color: rgb(255, 0, 0);
-}
+    .griditem:hover {
+        background-color: var(--hovercolor);
+    }
 
 .returnhome {
     height: 50px;
     width: 95%;
     margin-left: 2.5%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--subcolor);
     border: 1px solid rgba(0, 0, 0, 0.8);
 }
     .returnhome:hover {
-        background-color: rgb(255, 0, 0);
+        background-color: var(--hovercolor);
     }
