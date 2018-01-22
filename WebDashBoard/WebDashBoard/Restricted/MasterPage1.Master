@@ -12,8 +12,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:LoginStatus ID="lnsMain" runat="server" />
-            <br />
+            <div class="nav">
+                <asp:LoginStatus class="navitem" ID="lnsMain" runat="server" />
+            </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
             <br />
