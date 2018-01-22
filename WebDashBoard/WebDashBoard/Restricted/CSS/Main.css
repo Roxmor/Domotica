@@ -11,6 +11,17 @@ body {
     margin: 0px;
 }
 
+.login {
+    background-color: var(--subcolor);
+    padding:10px;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .nav {
     background-color: var(--subcolor);
     border-bottom: var(--bordervalue);
@@ -23,6 +34,7 @@ body {
     border-left: var(--bordervalue);
     border-right: var(--bordervalue);
     padding: 20px;
+    color:black;
 }
 .navitem:hover {
     background-color: var(--hovercolor);
