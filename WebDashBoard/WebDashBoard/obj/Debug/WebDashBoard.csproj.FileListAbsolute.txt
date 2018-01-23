@@ -18,4 +18,3 @@ C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\bin\WebDas
 C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.csproj.CoreCompileInputs.cache
 C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.dll
 C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.pdb
-C:\Users\Roxmo\Documents\Inholland\Domotica\WebDashBoard\WebDashBoard\obj\Debug\WebDashBoard.csprojResolveAssemblyReference.cache

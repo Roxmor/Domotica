@@ -1,7 +1,9 @@
 ﻿:root {
     --maincolor: #fff;
-    --subcolor: #238cdd;
-    --hovercolor: #165a8e;
+    --subcolor: #fff;
+    --hovercolor: #0071b9;
+    --textcolor: #0071b9;
+    --texthover: #fff;
     --bordervalue: 1px solid rgba(0, 0, 0, 0.8);
 }
 
@@ -9,6 +11,7 @@
 body {
     background-color: var(--maincolor);
     margin: 0px;
+    
 }
 
 .login {
@@ -34,10 +37,11 @@ body {
     border-left: var(--bordervalue);
     border-right: var(--bordervalue);
     padding: 20px;
-    color:black;
+    color:var(--textcolor);
 }
 .navitem:hover {
     background-color: var(--hovercolor);
+    color: var(--texthover);
 }
 
 .gridview {
@@ -55,10 +59,11 @@ body {
     text-align: center;
     margin: 50px;
     height: 50%;
-    
+    color: var(--textcolor);
 }
     .griditem:hover {
         background-color: var(--hovercolor);
+        color: var(--texthover);
     }
 
 .returnhome {
