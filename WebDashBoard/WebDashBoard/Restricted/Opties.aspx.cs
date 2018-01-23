@@ -11,12 +11,16 @@ namespace WebDashBoard
 {
     public partial class Opties : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            string Username = User.Identity.Name.ToString();
+            if (!IsPostBack)
+            {
+                mvwOpties.Visible = false;
+            }
+            lblUsername.Text = User.Identity.Name;
             OleDbConnection conn = new OleDbConnection();
             conn.ConnectionString = ConfigurationManager.ConnectionStrings["DashboardDB"].ToString();
-
             if (!IsPostBack)
             {
                 try
@@ -31,8 +35,37 @@ namespace WebDashBoard
                 {
                     conn.Close();
                 }
+            }
+        }
 
-                lblUsername.Text = Username;
+        protected void btnSites_Click(object sender, EventArgs e)
+        {
+            mvwOpties.Visible = true;
+            mvwOpties.ActiveViewIndex = 0;
+        }
+
+        protected void btnGames_Click(object sender, EventArgs e)
+        {
+            mvwOpties.Visible = true;
+            mvwOpties.ActiveViewIndex = 1;
+        }
+
+        protected void btnInvoer_Click(object sender, EventArgs e)
+        {
+            OleDbConnection conn = new OleDbConnection();
+            conn.ConnectionString = ConfigurationManager.ConnectionStrings["DashboardDB"].ToString();
+            try
+            {
+                conn.Open();
+                adsINSERT.Insert();
+            }
+            catch (Exception exc)
+            {
+
+            }
+            finally
+            {
+                conn.Close();
             }
         }
     }
