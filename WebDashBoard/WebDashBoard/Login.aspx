@@ -11,7 +11,7 @@
     <div class="login">
         <form id="form1" runat="server">
             <div>
-                <asp:Login ID="lgnLogin" runat="server" DestinationPageUrl="~/Restricted/MainPage.aspx" MembershipProvider="KortereNaam">
+                <asp:Login ID="lgnLogin" runat="server" DestinationPageUrl="~/Restricted/MainPage.aspx" MembershipProvider="KortereNaam" DisplayRememberMe="False">
                 </asp:Login>
                 <br />
                 <asp:Label ID="lblRegister" runat="server" Text="Nog geen account?"></asp:Label>

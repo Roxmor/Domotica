@@ -11,7 +11,10 @@ namespace WebDashBoard
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Request.Url.AbsoluteUri.Contains("MainPage.aspx"))
+            {
+                btnReturn.Visible = false;
+            }
         }
         protected void btnReturn_Click(object sender, EventArgs e)
         {
