@@ -76,3 +76,16 @@ body {
     .returnhome:hover {
         background-color: var(--hovercolor);
     }
+
+.account {
+    font-size: 30px;
+    color: var(--textcolor);
+    background-color: var(--maincolor);
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
