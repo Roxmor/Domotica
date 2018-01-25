@@ -49,58 +49,22 @@ namespace WebDashBoard {
         protected global::System.Web.UI.WebControls.View viwSites;
         
         /// <summary>
-        /// adsDDLSites control.
+        /// adsWebsites control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.AccessDataSource adsDDLSites;
+        protected global::System.Web.UI.WebControls.AccessDataSource adsWebsites;
         
         /// <summary>
-        /// ddlSites control.
+        /// DropDownList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlSites;
-        
-        /// <summary>
-        /// adsWebid control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.AccessDataSource adsWebid;
-        
-        /// <summary>
-        /// adsUserid control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.AccessDataSource adsUserid;
-        
-        /// <summary>
-        /// adsINSERT control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.AccessDataSource adsINSERT;
-        
-        /// <summary>
-        /// btnInvoer control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnInvoer;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
         
         /// <summary>
         /// viwGames control.
@@ -130,30 +94,12 @@ namespace WebDashBoard {
         protected global::System.Web.UI.WebControls.View viwEditsites;
         
         /// <summary>
-        /// lblUsername control.
+        /// lblUserid control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUsername;
-        
-        /// <summary>
-        /// ddlWebid control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlWebid;
-        
-        /// <summary>
-        /// ddlUserid control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlUserid;
+        protected global::System.Web.UI.WebControls.Label lblUserid;
     }
 }

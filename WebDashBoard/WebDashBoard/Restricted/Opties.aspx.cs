@@ -18,7 +18,7 @@ namespace WebDashBoard
             {
                 mvwOpties.Visible = false;
             }
-            lblUsername.Text = User.Identity.Name;
+            lblUserid.Text = Session["Userid"].ToString();
             OleDbConnection conn = new OleDbConnection();
             conn.ConnectionString = ConfigurationManager.ConnectionStrings["DashboardDB"].ToString();
             if (!IsPostBack)
@@ -50,23 +50,9 @@ namespace WebDashBoard
             mvwOpties.ActiveViewIndex = 1;
         }
 
-        protected void btnInvoer_Click(object sender, EventArgs e)
+        protected void ddlWebsites_SelectedIndexChanged(object sender, EventArgs e)
         {
-            OleDbConnection conn = new OleDbConnection();
-            conn.ConnectionString = ConfigurationManager.ConnectionStrings["DashboardDB"].ToString();
-            try
-            {
-                conn.Open();
-                adsINSERT.Insert();
-            }
-            catch (Exception exc)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
+            fvwAddsites.PageIndex = ddlWebsites.SelectedIndex;
         }
     }
 }

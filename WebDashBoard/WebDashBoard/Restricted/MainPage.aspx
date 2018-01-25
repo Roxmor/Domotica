@@ -16,5 +16,16 @@
 
         <asp:Button ID="btnAccount" class="griditem" runat="server" Text="Account" OnClick="btnAccount_Click" />
     </div>
+    <asp:Label ID="lblUsername" runat="server" Text="Label" Visible="False"></asp:Label>
+    <asp:AccessDataSource ID="adsUserid" runat="server" DataFile="~/App_Data/Dashboard.accdb" SelectCommand="SELECT [Userid] FROM [Gebruiker] WHERE ([Gebruikersnaam] = ?)">
+        <SelectParameters>
+            <asp:ControlParameter ControlID="lblUsername" Name="Gebruikersnaam" PropertyName="Text" Type="String" />
+        </SelectParameters>
+    </asp:AccessDataSource>
+    <asp:GridView ID="grvUserid" runat="server" AutoGenerateColumns="False" DataKeyNames="Userid" DataSourceID="adsUserid" SelectedIndex="0" Visible="False">
+        <Columns>
+            <asp:BoundField DataField="Userid" HeaderText="Userid" InsertVisible="False" ReadOnly="True" SortExpression="Userid" />
+        </Columns>
+</asp:GridView>
 </asp:Content>
 

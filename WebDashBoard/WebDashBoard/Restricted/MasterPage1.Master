@@ -15,12 +15,10 @@
             <div class="nav">
                 <asp:LoginStatus class="navitem" ID="lnsMain" runat="server" />
             </div>
-            <asp:AccessDataSource ID="adsUserId" runat="server"></asp:AccessDataSource>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
             <br />
             <asp:Button class="returnhome" ID="btnReturn" runat="server" OnClick="btnReturn_Click" Text="Terug naar de mainpage" />
-            <asp:Label ID="lblUsername" runat="server" Text="Label" Visible="False"></asp:Label>
         </div>
     </form>
 </body>

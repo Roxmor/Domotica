@@ -14,7 +14,10 @@ namespace WebDashBoard
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            lblUsername.Text = User.Identity.Name;
+            string Userid;
+            Userid = grvUserid.SelectedRow.Cells[0].Text;
+            Session["Userid"] = Userid;
         }
         protected void btnDaHaus_Click(object sender, EventArgs e)
         {

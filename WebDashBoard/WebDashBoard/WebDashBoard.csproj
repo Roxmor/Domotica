@@ -58,7 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Error.aspx" />
+    <Content Include="RegisterError.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Login.aspx">
       <BrowseToURL>~/Login.aspx</BrowseToURL>
@@ -80,12 +80,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccessOleDbMembershipProvider.cs" />
-    <Compile Include="Error.aspx.cs">
-      <DependentUpon>Error.aspx</DependentUpon>
+    <Compile Include="RegisterError.aspx.cs">
+      <DependentUpon>RegisterError.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Error.aspx.designer.cs">
-      <DependentUpon>Error.aspx</DependentUpon>
+    <Compile Include="RegisterError.aspx.designer.cs">
+      <DependentUpon>RegisterError.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

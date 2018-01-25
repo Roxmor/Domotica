@@ -22,12 +22,12 @@ namespace WebDashBoard {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// cuwCreateUser control.
+        /// cuwRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CreateUserWizard cuwCreateUser;
+        protected global::System.Web.UI.WebControls.CreateUserWizard cuwRegister;
     }
 }
