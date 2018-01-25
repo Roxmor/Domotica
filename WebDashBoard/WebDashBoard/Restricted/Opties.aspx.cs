@@ -52,7 +52,7 @@ namespace WebDashBoard
 
         protected void ddlWebsites_SelectedIndexChanged(object sender, EventArgs e)
         {
-            fvwAddsites.PageIndex = ddlWebsites.SelectedIndex;
+            
         }
     }
 }
